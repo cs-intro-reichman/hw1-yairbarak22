@@ -11,7 +11,7 @@ public class TimeFormat {
 		}
 		else {
 			System.out.print(hours + ":");
-			if(minutes<10) System.out.print("0" + minutes + " PM");	
+			if(minutes<10) System.out.print("0" + minutes + " AM");	
 			else System.out.print(minutes + " AM");
 		}
 	}
